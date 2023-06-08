@@ -1,0 +1,31 @@
+.about{
+    background-color: var(--mainColor2);
+    color: white;
+    padding: 6rem 0;
+}
+.about .mainTitle{
+    color: white;
+}
+.about .line{
+    background-color: white;
+}
+.about .info{
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+}
+.about .btn{
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    border: 2px solid white;
+    padding: 1rem 1.7rem;
+    margin-top: 1.5rem;
+}
+.about .btn .icon{
+    margin-right: .9rem;
+}
+.about .btn:hover{
+    color: black;
+    background-color: white;
+}

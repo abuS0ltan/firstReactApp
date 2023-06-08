@@ -1,3 +1,17 @@
+/* -----------------------------start public thing -----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+:root{
+  --mainColor:rgb(44,62,80);
+  --mainColor2:rgb(26,188,156);
+}
+
+/* -----------------------------end public thing -----------------------------*/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +25,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* -----------------------------start star div -----------------------------*/
+
+.starDiv{
+  font-size: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.3rem 0 1.5rem 0;
+}
+.starDiv .line{
+  content: ' ';
+  height: .25rem;
+  width: 7rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  margin: 0 1rem;
+}
+
+/* -----------------------------end star div -----------------------------*/

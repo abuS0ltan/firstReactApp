@@ -1,0 +1,49 @@
+.portfolio{
+    padding: 6rem 0;
+}
+.mainTitle{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--mainColor);
+}
+.portfolio .starDiv{
+    color: var(--mainColor);
+}
+.portfolio .starDiv .line{
+    background-color: var(--mainColor);
+}
+.portfolio .item img{
+    width: 100%;
+    border-radius: .425rem;
+    -webkit-border-radius: .425rem;
+    -moz-border-radius: .425rem;
+    -ms-border-radius: .425rem;
+    -o-border-radius: .425rem;
+}
+.portfolio .item{
+    margin-bottom: 3rem;
+    position: relative;
+}
+.portfolio .item .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(26, 188, 156, 0.9);
+    border-radius: .425rem;
+    font-size: 4.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+.portfolio .item:hover .overlay{
+    opacity: 1;
+}

@@ -1,0 +1,46 @@
+.contact .line{
+    background-color: var(--mainColor);
+}
+.contact .starDiv{
+    color: var(--mainColor);
+}
+.contact{
+    padding: 6rem 0;
+}
+.contact .row.form{
+    justify-content: center;
+
+}
+.contact .row.form .col-md-8{
+    padding: 0 2rem;
+}
+.contact .form-control{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    padding: 1.5rem 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.contact .form-control::placeholder{
+    color: rgb(108,117,125);
+}
+.contact .form-control:focus{
+    box-shadow: none;
+}
+.contact .btn{
+    background-color: var(--mainColor2);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem 1.7rem;
+}
+.btnDiv{
+    display: flex;
+
+}

@@ -1,0 +1,27 @@
+.header{
+    background-color: var(--mainColor2);
+    color: white;
+    padding: 13rem 0 6rem 0;
+}
+.headerTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.header .line{
+    background-color: white;
+}
+.header .starDiv{
+    z-index: -1;
+}
+.headerInfo{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.header .row{
+    justify-content: center;
+}
+.header .logo{
+    width: 15rem;
+    margin-bottom: 3rem;
+}

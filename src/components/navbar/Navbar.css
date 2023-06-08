@@ -1,0 +1,39 @@
+.navbar .navbar-nav .nav-link.active{
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar .navbar-nav .nav-link.active:hover{
+    color: var(--mainColor2);
+}
+.navbar{
+    background-color: var(--mainColor);
+    color: white;
+    padding: 1.75rem 0;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    width: 1.3rem;
+}
+.navbar-toggler{
+    background-color: var(--mainColor2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+    border: none;
+}
+.navbar-toggler .menu{
+    color: white;
+    font-size: .8rem;
+    padding-right: .5rem;
+    padding-top: .1rem;
+}
